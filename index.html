@@ -92,7 +92,7 @@
 		<div class="cta button alt"><a href="/sign-up/">SIGN UP</a></div>
 		<div>
 			<!--<img alt="Screenshot" class="screenshot editable" src="/uploads/dashboard.png" width="794" height="500" />-->
-			
+		<!--	
 			<canvas id="Bitfinex"></canvas>
 			
 			<script type="text/javascript">
@@ -174,8 +174,35 @@
                     }
                 });
 
-			</script>
-				
+			</script>-->
+				<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tv-medium-widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BINANCE-IOTAUSD/" rel="noopener" target="_blank"><span class="blue-text">IOTA Quotes</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.MediumWidget(
+  {
+  "container_id": "tv-medium-widget",
+  "symbols": [
+    [
+      "IOTA",
+      "BINANCE:IOTAUSD|1d"
+    ]
+  ],
+  "greyText": "Quotes by",
+  "gridLineColor": "#e9e9ea",
+  "fontColor": "#83888D",
+  "underLineColor": "#dbeffb",
+  "trendLineColor": "#4bafe9",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
 			
 		</div>
 	</div>
