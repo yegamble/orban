@@ -1,7 +1,3 @@
----
-layout: null
-sitemap: false
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://proud-alligator.cloudvent.net/sitemap.xml
 /Users/yosefgamble/Documents/GitHub/orban/README.md
