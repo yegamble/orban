@@ -36,6 +36,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        <script type="text/javascript" src="https://github.com/nagix/chartjs-plugin-streaming/releases/download/v1.1.0/chartjs-plugin-streaming.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.1.0/pusher.js"></script>
 	</head>
 	<body>
 		<header>
@@ -91,7 +93,15 @@
 		<div>
 			<!--<img alt="Screenshot" class="screenshot editable" src="/uploads/dashboard.png" width="794" height="500" />-->
 			
-			<canvas id="myChart" height="400" width="400"></canvas>
+			<canvas id="Bitfinex" height="400" width="400"></canvas>
+			
+			
+			<script>
+			    var buf = {};
+			    buf['Bitfinex'] = [[],[]];
+			</script>
+			
+			
 			<script>
 var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
