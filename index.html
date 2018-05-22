@@ -103,7 +103,7 @@
                 ws.onopen = function() {
                     ws.send(JSON.stringify({      // send subscribe request
                         "event": "subscribe",
-                        "channel": "trades",
+                        "channel": "ticker",
                         "pair": "IOTUSD"
                     }));
                 };
