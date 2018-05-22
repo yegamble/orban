@@ -98,6 +98,12 @@
 			<script type="text/javascript">
                 var buf = {};
                 buf['Bitfinex'] = [[], []];
+                
+                {
+    "event": "subscribe", // subscribe request
+    "channel": "trades",  // trade data
+    "pair": "BTCUSD"      // Bitcoin/US dollar
+}
 
                 var ws = new WebSocket('wss://api.bitfinex.com/ws/');
                 ws.onopen = function() {
