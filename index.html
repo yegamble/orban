@@ -120,6 +120,7 @@
 
 <script>
 			    var id = 'Bitfinex';
+			    
                 var ctx = document.getElementById(id).getContext('2d');
                 var chart = new Chart(ctx, {
                     type: 'line',
@@ -150,6 +151,11 @@
                                 type: 'realtime' // auto-scroll on X axis
                             }]
                         },
+                        
+                        {
+                            
+                        },
+                        
                         plugins: {
                             streaming: {
                                 duration: 30000, // display data for the latest 300000ms (5 mins)
@@ -166,6 +172,9 @@
                         }
                     }
                 });
+                
+                Chart.defaults.line.spanGaps = false;
+
 
 			</script>
 				
