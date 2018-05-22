@@ -1,0 +1,65 @@
+- links:
+    - name: FAQ
+      link: /faq/
+    - name: News
+      link: /news/
+    - name: About Us
+      link: /about/
+    - name: API
+      link: /api/
+- links:
+    - name: Login
+      link: /
+      new_window: true
+    - name: Sign Up
+      link: /
+      new_window: true
+    - name: Docs
+      link: /
+      new_window: true
+    - name: Status
+      link: /
+      new_window: true
+- links:
+    - name: Privacy Policy
+      link: /privacy/
+      new_window: false
+      social_icon:
+    - name: Terms & Conditions
+      link: /terms/
+      new_window: false
+      social_icon:
+    - name: AML Policy
+      link: /aml/
+      new_window: false
+      social_icon:
+- links:
+    - name: Contact Us
+      link: /contact/
+      new_window: false
+      social_icon:
+    - name: Help Desk
+      link: /support/
+      new_window: false
+      social_icon:
+    - name: Security
+      link: /security/
+      new_window: false
+      social_icon:
+- links:
+    - name: Facebook
+      link: 'https://facebook.com'
+      new_window: true
+      social_icon: Facebook
+    - name: Twitter
+      link: 'https://twitter.com'
+      social_icon: Twitter
+      new_window: true
+    - name: YouTube
+      link: 'https://youtube.com'
+      social_icon: YouTube
+      new_window: true
+    - name: RSS
+      link: /feed.xml
+      social_icon: RSS
+      new_window: false
